@@ -30,9 +30,9 @@ endfunction
 
 " Colours {{{
 let s:purple = { 'cterm': 141, 'gui': '#AF87FF' }
-let s:light_green = { 'cterm': 148, 'gui': '#A4E400' }
-let s:light_blue = { 'cterm': 81, 'gui': '#62D8F1' }
-let s:magenta = { 'cterm': 197, 'gui': '#FC1A70' }
+let s:light_green = { 'cterm': 148, 'gui': '#B7ED49' }
+let s:light_blue = { 'cterm': 81, 'gui': '#81DDEB' }
+let s:magenta = { 'cterm': 197, 'gui': '#C32860' }
 let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
 
 let s:off_white = { 'cterm': 251, 'gui': '#CCCCCC' }

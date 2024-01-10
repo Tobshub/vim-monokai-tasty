@@ -36,7 +36,7 @@ let s:magenta = { 'cterm': 197, 'gui': '#C32860' }
 let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
 
 let s:off_white = { 'cterm': 251, 'gui': '#CCCCCC' }
-let s:white = { 'cterm': 231, 'gui': '#FFFFFF' }
+let s:white = { 'cterm': 255, 'gui': '#FFFFFF' }
 let s:black = { 'cterm': 0, 'gui': '#000000' }
 
 let s:danger = { 'cterm': 197, 'gui': '#FF005F' }
@@ -56,21 +56,21 @@ let s:bold_underline = { 'cterm': 'bold,underline', 'gui': 'bold,underline' }
 " }}}
 
 " Config - vim_monokai_tasty_machine_tint {{{
-if !exists('g:vim_monokai_tasty_machine_tint')
-  let g:vim_monokai_tasty_machine_tint = 0
-endif
+" if !exists('g:vim_monokai_tasty_machine_tint')
+"   let g:vim_monokai_tasty_machine_tint = 0
+" endif
 
-if g:vim_monokai_tasty_machine_tint == 1
-  " Monokai 'machine'
-  " Monochrome in order light -> dark
-  let s:light_grey = { 'cterm': 250, 'gui': '#8C9497' }
-  let s:grey = { 'cterm': 245, 'gui': '#576266' }
-  let s:dark_grey = { 'cterm': 59, 'gui': '#354044' }
-  let s:darker_grey = { 'cterm': 238, 'gui': '#242F35' }
-  let s:light_charcoal = { 'cterm': 235, 'gui': '#1A2225' }
-  let s:charcoal = { 'cterm': 233, 'gui': '#171C20' }
-  let s:yellow = { 'cterm': 228, 'gui': '#F6F557' }
-else
+" if g:vim_monokai_tasty_machine_tint == 1
+"   " Monokai 'machine'
+"   " Monochrome in order light -> dark
+"   let s:light_grey = { 'cterm': 250, 'gui': '#8C9497' }
+"   let s:grey = { 'cterm': 245, 'gui': '#576266' }
+"   let s:dark_grey = { 'cterm': 59, 'gui': '#354044' }
+"   let s:darker_grey = { 'cterm': 238, 'gui': '#242F35' }
+"   let s:light_charcoal = { 'cterm': 235, 'gui': '#1A2225' }
+"   let s:charcoal = { 'cterm': 233, 'gui': '#191919' }
+"   let s:yellow = { 'cterm': 228, 'gui': '#F6F557' }
+" else
   " Monokai classic
   " Monochrome in order light -> dark
   let s:light_grey = { 'cterm': 250, 'gui': '#BCBCBC' }
@@ -78,9 +78,9 @@ else
   let s:dark_grey = { 'cterm': 59, 'gui': '#5F5F5F' }
   let s:darker_grey = { 'cterm': 238, 'gui': '#444444' }
   let s:light_charcoal = { 'cterm': 238, 'gui': '#2B2B2B' }
-  let s:charcoal = { 'cterm': 235, 'gui': '#262626' }
+  let s:charcoal = { 'cterm': 235, 'gui': '#191919' }
   let s:yellow = { 'cterm': 228, 'gui': '#FFFF87' }
-endif
+" endif
 
 " }}}
 
